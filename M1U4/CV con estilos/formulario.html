@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="background-color:hsl(15, 6%, 73%) ;" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="estiloscv.css">
+</head>
+
+<body>
+
+    <h2>Información de contacto</h2>
+    <ul>
+        <li>Bv San Juan 798, 5A - Córdoba, Argentina.</li>
+        <li>30 años (09/01/1992). Nacionalidad: argentina.</li>
+        <li>+5493541215697 - emifontan@gmail.com</li>
+        <li>Skype id: eafontan</li>
+    </ul>
+
+    <h3>Si quieres contactarme, por favor completa el siguiente formulario:</h3>
+    <form action="Contacto" method="">
+        <fieldset id="form">
+            <p> <label> Nombre:</label> <input type="text" name="nombre" size="40"></p>
+            <p> <label> Correo electrónico:</label> <input type="text" name="email" size="40"></p>
+            <p> <label> Teléfono:</label> <input type="text" name="tel" size="40"></p>
+            <p> <label> Sexo: </label>
+                <input type="radio" name="hm" value="h"> Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p> <label> Comentarios </label>
+                <textarea type="text" name="Comentarios" cols="40" rows="3"></textarea>
+            </p>
+            <p align="center">
+                <input type="submit" class="boton" value="Enviar">
+                <input type="reset" class="boton" value="Borrar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
