@@ -1,0 +1,93 @@
+body {
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1 {
+    color: rgba(56, 6, 56, 0.993);
+    /* background: #4900ff; */
+    background: radial-gradient(ellipse farthest-corner at center center, #4900ff 0%, #0be7ee 80%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at center center, #4900ff 0%, #0be7ee 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at center center, #4900ff 0%, #0be7ee 80%);
+    font-style: italic;
+    size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(5, 12, 5);
+    /* background: #170325; */
+    background: radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    font-style: oblique;
+}
+
+h3 {
+    color: rgb(3, 19, 3);
+    /* background: #170325; */
+    background: radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at top right, #170325 0%, #d9c3f1 80%);
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: square;
+
+}
+
+li::marker {
+    font-weight: bolder;
+}
+
+.fotico {
+    text-align: center;
+}
+
+.importante {
+    font-weight: bold;
+}
+
+#textos {
+    font-family: cursive;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+/*Estilos para el formulario*/
+
+#form {
+    /* border: 1px solid #cc8888; */
+    border-radius: 49px 49px 49px 49px;
+    width: 480px;
+    margin: left;
+}
+
+#form input[type=text] {
+    border: 1px solid #CCCCCC;
+}
+
+#form textarea[type=text] {
+    border: 1px solid #CCCCCC;
+}
+
+#form input.boton {
+    padding: 3px;
+    color: #FFFFFF;
+    background-color: #990000;
+    border: 1px solid #000000;
+    box-shadow: 11px 14px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+#form label {
+    width: 130px;
+    float: left;
+    text-align: left;
+}
